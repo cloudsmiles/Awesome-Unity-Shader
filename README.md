@@ -7,4 +7,4 @@
 ## 环境
 - Unity 2022.3.43f1c1
 - DX11
-- 基于HLSL语言
+- 基于URP，HLSL语言
