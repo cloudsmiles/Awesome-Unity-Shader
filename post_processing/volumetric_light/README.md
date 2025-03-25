@@ -32,6 +32,7 @@ float GetLightAttenuation(float3 position)
 光线的效果依赖于步进的距离和计算的次数，当步进距离均等时，次数减少，锯齿感会更明显。所以为了达到更好的效果，抖动每次的步进距离，使用随机数实现。
 
 ![](../../pictures/volumetric_light_3.png)
+
 这是计算次数为8的效果图，但是噪点很多，所以需要使用到模糊方法。
 
 ### 双边滤波
