@@ -11,7 +11,9 @@
 - Shader - 定义后处理的具体视觉效果
 
 ## Volume Component
+
 ![](../pictures/volume_component.png)
+
 这是volume组件的图片，可以定义为全局与局部，由于后处理的效果是全局的，所以我们这里定义为全局。
 
 volume组件有【Add Override】按钮，用于添加组件。以下是组件代码编写，继承VolumeComponent，实现IPostProcessComponent接口。可以定义组件的参数。
