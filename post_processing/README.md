@@ -36,6 +36,7 @@ public class CustomPostScreenTint : VolumeComponent, IPostProcessComponent
 }
 ```
 效果如下
+
 ![](../pictures/volume_component_1.png)
 
 
@@ -125,10 +126,11 @@ public class TintRenderFeature : ScriptableRendererFeature
 ```
 
 在URP Renderer Asset中添加Render Feature，即可完成注入。
+
 ![](../pictures/render_feature.png)
 
 ## Shader
-后处理效果的核心，常见的后处理效果，如高斯模糊，颜色叠加，景深等，都可以通过Shader实现。在URP中，需要理解的是，Render Pass完成的是渲染流程的管理，而Shader是具体的渲染逻辑。
+后处理效果的核心，常见的后处理效果，如高斯模糊，颜色叠加，景深等，都可以通过Shader实现。在URP中，需要理解的是，Render Pass实现的是渲染流程，而Shader是具体的渲染效果。
 
 ## 参考资料
 - UnityURP 自定义PostProcess https://blog.csdn.net/a71468293a/article/details/144649558
