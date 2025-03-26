@@ -13,6 +13,9 @@
 ![](../../pictures/volumetric_light_2.png)
 
 ## 实现
+### URP管线
+URP管线的后处理，使用的是Render Feature和Render Pass的方式。参考[URP后处理](../README.md)
+
 ### 重建世界坐标
 由于我们是基于后处理的方式实现的，所以我们需要重建世界坐标。从屏幕空间到世界空间的转换，使用Unity的内置函数**ComputeWorldSpacePosition**，具体可以参考官方文档：https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.1/manual/writing-shaders-urp-reconstruct-world-position.html
 
