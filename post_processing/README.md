@@ -43,10 +43,9 @@ public class CustomPostScreenTint : VolumeComponent, IPostProcessComponent
 
 
 ## Render Feature & Render Pass
-创建c#脚本，完成两个类的代码编写。第一个是Render Feature，继承ScriptableRendererFeature，实现AddRenderPasses方法。第二个方法是Render Pass，继承ScriptableRenderPass，实现OnCameraSetup，Execute，OnCameraCleanup方法。
-
-第一个类是连接URP Render Feature的入口，也可以自定义参数，在Render Feature管理界面中会展示对应参数。
-第二个类是具体的渲染逻辑，负责初始化，每帧执行渲染逻辑，每帧结束后清理资源。
+创建c#脚本，完成两个类的代码编写。
+- Render Feature，继承ScriptableRendererFeature，实现AddRenderPasses方法。连接URP Render Feature的入口，也可以自定义参数，在Render Feature管理界面中会展示对应参数
+- Render Pass，继承ScriptableRenderPass，实现OnCameraSetup，Execute，OnCameraCleanup方法。实现具体的渲染逻辑，负责初始化，每帧执行渲染逻辑，每帧结束后清理资源
 
 以下是示例代码，完成简单的颜色叠加
 ```csharp
