@@ -1,5 +1,6 @@
 # URP后处理
 ![](../pictures/ghost.jpg)
+图片来源https://x.com/DUBUSUL
 
 ## 简介
 本文介绍URP如何使用后处理。因为URP管线的后处理与built-in管线的后处理有一些区别，而且URP的使用要稍微复杂一些，所以作为一个教程详细介绍
